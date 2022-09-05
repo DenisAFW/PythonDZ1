@@ -31,4 +31,4 @@ pointA = input_numbers(2)
 print("Введите координаты точки В")
 pointB = input_numbers(2)
 
-print(f"Длина отрезка: {format(Length(pointA, pointB), '.2f')}")
+print(f"Длина отрезка: {round(Length(pointA, pointB),2)}")
